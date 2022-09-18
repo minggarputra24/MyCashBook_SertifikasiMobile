@@ -1,161 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_margin="15dp"
     android:layout_height="match_parent"
-    tools:context=".Setting">
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SettingActivity">
+
     <TextView
-        android:id="@+id/pengaturanTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:text="Pengaturan"
-        android:textSize="25sp"
-        android:textColor="@color/black"
-        />
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/pengaturanTitle"
+        android:layout_marginTop="10dp"
         android:text="Ganti Password"
-        android:textStyle="bold"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:id="@+id/titleGantiPassword"
-        android:layout_marginTop="15dp"/>
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/titlePasswordLama"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/titleGantiPassword"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:layout_marginTop="10dp"
-        android:text="Password Lama"
-        />
+        android:text="Password Saat Ini"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/formPasswordLama"
-        app:layout_constraintTop_toBottomOf="@+id/titlePasswordLama"
+        android:id="@+id/oldpass"
         android:layout_width="match_parent"
-        android:hint="Masukan Password Lama"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_box"
         android:inputType="textPassword"
-        android:layout_height="wrap_content"/>
+        android:padding="10dp" />
 
     <TextView
-        android:id="@+id/titlePasswordBaru"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/formPasswordLama"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        android:layout_marginTop="10dp"
         android:text="Password Baru"
-        />
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/formPasswordBaru"
-        app:layout_constraintTop_toBottomOf="@+id/titlePasswordBaru"
+        android:id="@+id/newpass"
         android:layout_width="match_parent"
-        android:hint="Masukan Password Baru"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_box"
         android:inputType="textPassword"
-        android:layout_height="wrap_content"/>
+        android:padding="10dp" />
 
-    <Button
-        android:id="@+id/btnChangePass"
-        android:text="Simpan"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Konfirmasi Password Baru"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_box"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_box"
         android:backgroundTint="@color/btnSimpan"
-        app:layout_constraintTop_toBottomOf="@+id/formPasswordBaru"/>
+        android:text="Simpan"
+        android:textColor="@color/white"
+        android:textColorHighlight="#494747"
+        android:textColorLink="#3F51B5" />
 
     <Button
-        android:id="@+id/btnBackToMenu"
-        android:text="Kembali"
+        android:id="@+id/kembali"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="@drawable/button_box"
         android:backgroundTint="@color/btnKembali"
-        app:layout_constraintTop_toBottomOf="@+id/btnChangePass"/>
+        android:text="Kembali"
+        android:textColor="@color/white" />
 
-    <Button
-        android:id="@+id/btnLogoutFromSetting"
-        android:text="Logout"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/btnLogout"
-        app:layout_constraintTop_toBottomOf="@+id/btnBackToMenu"/>
+        android:layout_height="match_parent"
+        android:gravity="bottom">
 
-    <ImageView
-        android:id="@+id/photoMe"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="4dp"
-        android:src="@drawable/foto"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/tanggalApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/photoMe"
-        android:text="Tanggal: 18 September 2022"
-        android:textColor="@color/black"
-        android:layout_marginLeft="10dp"
-        />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/foto" />
 
-    <TextView
-        android:id="@+id/nimApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/tanggalApp"
-        app:layout_constraintLeft_toRightOf="@+id/photoMe"
-        android:text="NIM: 1841720111"
-        android:textColor="@color/black"
-        android:layout_marginLeft="10dp"
-        />
-    <TextView
-        android:id="@+id/namakuApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/nimApp"
-        app:layout_constraintLeft_toRightOf="@+id/photoMe"
-        android:text="Nama: Minggar Putra Dhea Ramadhan"
-        android:textColor="@color/black"
-        android:layout_marginLeft="10dp"
-        />
-    <TextView
-        android:id="@+id/dibuatOlehApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/namakuApp"
-        app:layout_constraintLeft_toRightOf="@+id/photoMe"
-        android:text="Aplikasi Ini Dibuat Oleh:"
-        android:textColor="@color/black"
-        android:layout_marginLeft="10dp"
-        />
-    <TextView
-        android:id="@+id/aboutThisApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/dibuatOlehApp"
-        app:layout_constraintLeft_toRightOf="@+id/photoMe"
-        android:text="About This App.."
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:layout_marginLeft="10dp"
-        />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="About this App:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aplikasi Ini Dibuat Oleh:\nNama : Minggar Putra Dhea R.\nNim : 1841720111\nTanggal : 18 September 2022"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -3,14 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook/app/src/main/res/layout/activity_cashflow_detail.xml" value="0.18" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook/app/src/main/res/layout/activity_list_cashflow.xml" value="0.25" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook/app/src/main/res/layout/activity_setting.xml" value="0.33" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook/app/src/main/res/layout/activity_t_pemasukan.xml" value="0.18" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook/app/src/main/res/layout/activity_t_pengeluaran.xml" value="0.21" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook/app/src/main/res/layout/singledata.xml" value="0.5" />
+        <entry key="..\:/Android/MyCashBook/app/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/Android/MyCashBook/app/src/main/res/layout/activity_income.xml" value="0.1" />
+        <entry key="..\:/Android/MyCashBook/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Android/MyCashBook/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Android/MyCashBook/app/src/main/res/layout/activity_outcome.xml" value="0.1" />
+        <entry key="..\:/Android/MyCashBook/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/Android/MyCashBook/app/src/main/res/layout/listview_adapter_detail.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/BukuKas-master/BukuKas-master/app/src/main/res/layout/activity_detail.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/BukuKas-master/BukuKas-master/app/src/main/res/layout/activity_income.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/BukuKas-master/BukuKas-master/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/BukuKas-master/BukuKas-master/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/BukuKas-master/BukuKas-master/app/src/main/res/layout/activity_outcome.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/BukuKas-master/BukuKas-master/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/drawable/button_box.xml" value="0.1945" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1045" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.1045" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/layout/activity_detail.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/layout/activity_income.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/layout/activity_menu.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/layout/activity_outcome.xml" value="0.21" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/layout/activity_setting.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyCashBook_Sertifikasi/app/src/main/res/layout/listview_adapter_detail.xml" value="0.33" />
       </map>
     </option>
   </component>
@@ -19,5 +34,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
